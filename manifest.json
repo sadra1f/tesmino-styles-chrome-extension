@@ -11,10 +11,24 @@
     "48": "/img/icon-48.png",
     "128": "/img/icon-128.png"
   },
+  "web_accessible_resources": [
+    {
+      "resources": ["/css/gitlab.css"],
+      "matches": ["https://*/*", "http://*/*"]
+    }
+  ],
   "content_scripts": [
     {
       "css": ["/css/clickup.css"],
       "matches": ["https://app.clickup.com/*", "http://app.clickup.com/*"]
+    },
+    {
+      "css": ["/css/gitlab.css"],
+      "matches": ["https://gitlab.com/*", "http://gitlab.com/*"]
+    },
+    {
+      "js": ["/js/detect.js"],
+      "matches": ["https://*/*", "http://*/*"]
     }
   ]
 }

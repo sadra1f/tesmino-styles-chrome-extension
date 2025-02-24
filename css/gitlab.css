@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;300;500;700;900&display=swap");
+
+body {
+  --code-editor-font: var(--default-mono-font, "GitLab Mono"), "JetBrains Mono",
+    "Menlo", "Liberation Mono", "Consolas", "Vazirmatn", "DejaVu Sans Mono",
+    "Ubuntu Mono", "Courier New", "andale mono", "lucida console", monospace;
+
+  font-family: var(--default-regular-font, "GitLab Sans"), -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Ubuntu, Cantarell,
+    "Helvetica Neue", "Vazirmatn", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+textarea.js-gfm-input {
+  font-family: var(--default-mono-font, "GitLab Mono"), "JetBrains Mono",
+    "Menlo", "Liberation Mono", "Consolas", "Vazirmatn", "DejaVu Sans Mono",
+    "Ubuntu Mono", "Courier New", "andale mono", "lucida console", monospace !important;
+}
